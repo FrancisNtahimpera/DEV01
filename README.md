@@ -1,8 +1,8 @@
 # CI/CD PROJECT
 
 Hi! Here is a ci/cd using **JENKINS**, **Ansible** and **Kubernetes**.
-There is three VM : WeBapp, Ansible and Jenkins. The dev commit with git . Github send a trigger to jenkins trough a webhook( for the need of the build I decide to choose in this case, an automatic trigger every 10 minutes).
-Then The Dockerfile is commit and past on the Ansible Vm. 
+There is three server : WeBapp, Ansible and Jenkins. The dev commit with git command. Github send a trigger to jenkins trough a webhook( for the need of the build I decide to choose in this case, an automatic trigger every 10 minutes).
+Then The Dockerfile is commit and past from the Jenkins server to the Ansible server. 
 
 > **Note:Changes can be done 
 
