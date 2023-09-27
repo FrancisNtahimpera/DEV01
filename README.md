@@ -34,7 +34,6 @@ Then The Dockerfile is commit and past from the Jenkins server to the Ansible se
 
 
 </p>
-## diagrams
 
 
 
